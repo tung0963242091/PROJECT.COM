@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/tiep.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -45,7 +44,10 @@
                             <a class="nav-link" href="#">Sale </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact </a>
+                            <a class="nav-link" href="./contact.html">contact </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About </a>
                         </li>
 
                     </ul>
@@ -60,209 +62,289 @@
     <div class="main">
         <div class="clearfix">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <ul class="list-group row-hand">
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">RAY BAN</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">DIAMOND D</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">PHILIPPE AUGUSTE</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">BURBERRY</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">VERSACE</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">GUCCI</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">DIOR</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">PRADA</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">TOM FORD</a>
-                            </li>
-                            <li class="list-group-item list-group-item-action">
-                                <a href="#">THOM BROWNE</a>
-                            </li>
-                    </div>
-                    <div class="col-sm-9">
-                        <a href="#">
-                            <img src="./images/2.jpg" style="height: 491px; width: 915px;">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="clearfix">
-            <div class="container">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h4 class="text-center">
-                            Hàng bàn chạy nhất
-                        </h4>
-                    </div>
-                    <div class="card-deck">
-                        <div class="row">
-                            <div class="card col-4">
-                                <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural
-                                        lead-in
-                                        to
-                                        additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                            <div class="card col-4">
-                                <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional
-                                        content.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                            <div class="card col-4">
-                                <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in
-                                        to
-                                        additional content. This card has even longer content than the first to show
-                                        that
-                                        equal
-                                        height
-                                        action.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
+                <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item" data-interval="1">
+                            <img src="./images/slideshow3.jpg" class="d-block w-100" alt="" style="height: 491px; width: 100%;">
+                        </div>
+                        <div class="carousel-item" data-interval="2">
+                            <img src="./images/slideshow4.jpg" class="d-block w-100" alt="" style="height: 491px; width: 100%;">
+                        </div>
+                        <div class="carousel-item active" data-interval="3">
+                            <img src="./images/slideshow5.jpg" class="d-block w-100" alt="" style="height: 491px; width: 100%;">
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h4 class="text-center">
-                            Hàng bàn chạy nhất
-                        </h4>
-                    </div>
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional
-                                    content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in
-                                    to
-                                    additional content. This card has even longer content than the first to show that
-                                    equal
-                                    height
-                                    action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h4 class="text-center">
-                            Hàng đắt nhất
-                        </h4>
-                    </div>
-                    <div class="card-deck">
-                        <div class="card">
-                            <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in
-                                    to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to
-                                    additional
-                                    content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="./images/2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in
-                                    to
-                                    additional content. This card has even longer content than the first to show that
-                                    equal
-                                    height
-                                    action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="clearfix">
+        <div class="container">
+            <div>
+                <h2 class="sectionTitle prc"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Hàng
+                        Bán Chạy Nhất</a></h2>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <h2 class="sectionTitle prc"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Hàng
+                        Bán Chạy Nhất</a></h2>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <h2 class="sectionTitle prc"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Hàng
+                        Bán Chạy Nhất</a></h2>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="itemProduct">
+                                    <div class="imgProduct imgCenter">
+                                        <img src="./images/2.jpg" alt="" class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="infoProduct">
+                                    <h6 class="card-title">Special title treatment</h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
+                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
     <footer class="off-white-bg2 pt-95 bdr-top pt-sm-55">
         <!-- Footer Top Start -->
-        </br></br></br>
+
         <div class="footer-top">
             <div class="container">
                 <!-- Signup Newsletter Start -->
                 <div class="row mb-60">
                     <div class="col-xl-7 col-lg-7 ml-auto mr-auto col-md-8">
                         <div class="news-desc text-center mb-30">
-                            <h3>Đăng Ký Nhận Ưu Đãi</h3>
-                            <p>Hãy Là Người Đầu Tiên Nhận Được Tin Tức Và Ưu Đãi. Đăng Ký Ngay Hôm Nay</p>
+                            <h3>Sign up for Incentives</h3>
+                            <p> Be The First To Receive News And Incentives. Register Today</p>
                         </div>
                         <div class="newsletter-box">
                             <form action="#">
                                 <input class="subscribe" placeholder="Địa chỉ email của bạn" name="email" id="subscribe"
                                     type="text">
-                                <button type="submit" class="submit">Đăng Kí</button>
+                                <button type="submit" class="submit">Registration</button>
                             </form>
                         </div>
                     </div>
@@ -273,14 +355,14 @@
                     <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
-                            <h3 class="footer-title">DANH MỤC</h3>
+                            <h3 class="footer-title">CATEGORY</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
-                                    <li><a href="#">Kính Nam</a></li>
-                                    <li><a href="#">Kính Nữ</a></li>
-                                    <li><a href="#">Mắt Kính</a></li>
-                                    <li><a href="#">Kính Áp Tròng</a></li>
-                                    <li><a href="#">Gọng Kính</a></li>
+                                    <li><a href="#">Men's glasses</a></li>
+                                    <li><a href="#">Dear Female</a></li>
+                                    <li><a href="#">Glasses</a></li>
+                                    <li><a href="#">Lens</a></li>
+                                    <li><a href="#">eyeglass frames</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -289,7 +371,7 @@
                     <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
-                            <h3 class="footer-title">NHÃN HIỆU</h3>
+                            <h3 class="footer-title">BRAND</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
                                     <li><a href="#">Ray Ban</a></li>
@@ -305,17 +387,17 @@
                     <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
-                            <h3 class="footer-title">CHÍNH SÁCH</h3>
+                            <h3 class="footer-title">POLICY</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
                                     <li>
-                                        <a href="#">Bảo mật</a>
+                                        <a href="#">Security</a>
                                     </li>
                                     <li>
-                                        <a href="#">Mua hàng</a>
+                                        <a href="#">Purchase</a>
                                     </li>
                                     <li>
-                                        <a href="#">Vận chuyển</a>
+                                        <a href="#">Transport</a>
                                     </li>
                                     <li>
                                         <a href="#">Đổi/trả hàng</a>
@@ -328,23 +410,23 @@
                     <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
-                            <h3 class="footer-title">VỀ CHÚNG TÔI</h3>
+                            <h3 class="footer-title">ABOUT US</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
                                     <li>
-                                        <a href="#">Trang chủ</a>
+                                        <a href="#">Menu</a>
                                     </li>
                                     <li>
-                                        <a href="#">Trung tâm trợ giúp</a>
+                                        <a href="#">Help center</a>
                                     </li>
                                     <li>
-                                        <a href="#">Tin tức & Sự kiện</a>
+                                        <a href="#">News & Events</a>
                                     </li>
                                     <li>
-                                        <a href="#">Hệ thống cửa hàng</a>
+                                        <a href="#">Shop system</a>
                                     </li>
                                     <li>
-                                        <a href="#">Liên hệ</a>
+                                        <a href="#">Contact</a>
                                     </li>
                                 </ul>
                             </div>
@@ -354,7 +436,7 @@
                     <!-- Single Footer Start -->
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer mb-sm-40">
-                            <h3 class="footer-title">KẾT NỐI QUA FACEBOOK</h3>
+                            <h3 class="footer-title">CONNECTING THROUGH FACEBOOK</h3>
                             <div class="footer-content">
                                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FK%C3%ADnh-M%E1%BA%AFt-Eyeonic-316367292324944&tabs=timeline&width=351&height=140&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                                     width="351" height="140" style="border:none;overflow:hidden" scrolling="no"
@@ -368,10 +450,12 @@
                 </br></br>
 
                 <div class="copy-right">
-                    <p>Công Ty Cổ Phần Trực Tuyến EYEONIC</p>
-                    <p>Giấy CNĐKKD và MSDN số: 0104364 đăng ký lần đầu do Sở Kế hoạch và Đầu tư Hà Nội cấp ngày
+                    <p>EYEONIC Online Joint Stock Company</p>
+                    <p>Business Registration Certificate and MSDN number: 0104364 registered for the first time issued
+                        by Hanoi Department of Planning and Investment
                         01/01/2019</p>
                     <p>Copyright © 2009 - 2019 EYEONIC.COM . All Rights Reserved</p>
+                    <p>- Army of Shadow -</p>
                 </div>
             </div>
             <!-- Container End -->
