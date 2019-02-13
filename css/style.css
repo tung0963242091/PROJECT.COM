@@ -1,3 +1,155 @@
-.bg-red {
-    background-color: #ED1C24;
+.button_cart {
+    background: url(../images/buy.png) repeat-x;
+    line-height: 28px;
+    height: 32px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+#yourcartdetails {
+    margin: 10px;
+    border-top: 1px solid #564d4d;
+    border-bottom: 1px solid #564d4d;
+    width: 98%;
+}
+
+.yourcartdetails_title {
+    background-color: #EAEAEA;
+    line-height: 30px;
+    font-weight: 600
+}
+
+#yourcartdetails tr td {
+    padding: 5px;
+}
+
+.yourcartdetails_all tr td {
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #564d4d
+}
+
+.yourcartdetails_all {
+    width: 100%;
+}
+
+.cart_totla {
+    border-right: 1px solid #564d4d;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right
+}
+
+.cart_totla_price {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #FF0000
+}
+
+.buttondete {
+    cursor: pointer;
+}
+
+.back_cart {
+    float: right;
+    /*background:url(../images/icon-more.png) no-repeat right;*/
+    background: url(../images/icon-more-cart.png) no-repeat right;
+    padding-right: 15px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 3;
+}
+
+.info_cart_title_all td {
+    border-bottom: 1px dotted #E1E1E1
+}
+
+.info_cart_title_all .textbox {
+    border: 1px solid #EAEAEA;
+    line-height: 30px;
+    padding: 3px;
+    width: 90%;
+}
+
+.notearea {
+    border: 1px solid #EAEAEA;
+    padding: 3px;
+    width: 92%;
+}
+
+.info_cart_title {
+    text-align: left;
+    width: 30%;
+    border-right: 1px dotted #E1E1E1;
+    font-size: 12px;
+}
+
+.info_address_title {
+    border-bottom: 1px solid #EAEAEA;
+    font-weight: 600;
+    line-height: 30px;
+    background-color: #EAEAEA
+}
+
+.combo {
+    min-width: 200px;
+    border: 1px solid #EAEAEA;
+    line-height: 30px;
+    height: 30px;
+}
+
+.border_righta {
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #EAEAEA;
+    padding: 5px;
+}
+
+.border_xm {
+    text-align: left;
+    vertical-align: middle;
+    border: 1px solid #EAEAEA;
+}
+
+.bg_xacnhan1 {
+    border: 1px solid #EAEAEA;
+    text-align: center
+}
+
+.bg_xacnhan_sms {
+    background: none !important;
+    background-color: #666
+}
+
+.subtitle-1 {
+    padding-left: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.voucher {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.voucher input {
+    color: #000;
 }
