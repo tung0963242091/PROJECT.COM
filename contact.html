@@ -6,19 +6,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="contact.css">
     <title>Contact</title>
 </head>
 
 <body>
     <header class="page-header">
         <div class="container page-header">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/logo.png" height="100px" width="650px">
+                </div>
+                <div class="col-md-8">
+                    <div class="pull-right" style="float:right; margin-top: 30px">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 border" type="search" placeholder="Search" aria-label="Search" style="width:300px">
+                            <button class="btn btn-outline-success my-2 my-sm-0 border border-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-red">
             <div class="container">
@@ -28,21 +41,55 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">New</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Glasses</a>
                             <ul style="display: block;">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">New</a>
+                                    <a class="nav-link m-1" href="#">Gucci</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Dior</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Prada</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Rayban</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Tom Ford</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Men's glasses</a>
+                            <ul style="display: block;">
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Fashion Eyeglasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Swimming glasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Contact Lens</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Women's glasses</a>
+                            <ul style="display: block;">
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Fashion Eyeglasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Swimming glasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Contact Lens</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sale </a>
@@ -55,10 +102,14 @@
                         </li>
 
                     </ul>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2 border" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0 border border-success" type="submit">Search</button>
-                    </form>
+
+                    <div class="header-cart">
+                        <a href="/checkout/cart" class="header-cart item">
+                            <i class="fas fa-shopping-cart"></i>
+                            Giỏ hàng
+                            <span class="cart-count">0</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -72,13 +123,12 @@
                 </ul>
             </div>
         </div>
-        <!-- Container End -->
     </div>
-    <!-- Breadcrumb End -->
-    <!-- Contact -->
     <section class="banner-bottom-wthreelayouts py-lg-5 py-3">
         <div class="container">
-            <h3 class="tittle-w3layouts text-center my-lg-4 my-4">Contact</h3>
+            <div class="text-center">
+                <h3 class="tittle-w3layouts text-center my-lg-4 my-4">Contact</h3>
+            </div>
             <div class="inner_sec">
                 <p class="sub text-center mb-lg-5 mb-3">We love to discuss your idea</p>
                 <div class="address row">
@@ -117,7 +167,7 @@
                             </div>
                             <div class="col-md-9 address-right text-left">
                                 <h6>Phone:</h6>
-                                <p>+12 345 6789</p>
+                                <p>+44 345 6789</p>
 
                             </div>
 
@@ -156,18 +206,13 @@
         </div>
     </section>
     <div class="contact-map">
-
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.096707985379!2d105.77964481486173!3d21.028816135998333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abbfa96f309f%3A0x7917af0f83effe1b!2sFPT+University+Hanoi!5e0!3m2!1sen!2s!4v1546974348745"
             class="map" width="" height="" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 
-
     <footer class="off-white-bg2 pt-95 bdr-top pt-sm-55">
-        <!-- Footer Top Start -->
-
         <div class="footer-top">
             <div class="container">
-                <!-- Signup Newsletter Start -->
                 <div class="row mb-60">
                     <div class="col-xl-7 col-lg-7 ml-auto mr-auto col-md-8">
                         <div class="news-desc text-center mb-30">
@@ -183,42 +228,36 @@
                         </div>
                     </div>
                 </div>
-                <!-- Signup-Newsletter End -->
                 </br></br>
                 <div class="row">
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">CATEGORY</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
-                                    <li><a href="#">Men's glasses</a></li>
-                                    <li><a href="#">Dear Female</a></li>
                                     <li><a href="#">Glasses</a></li>
-                                    <li><a href="#">Lens</a></li>
-                                    <li><a href="#">eyeglass frames</a></li>
+                                    <li><a href="#">Men's glasses</a></li>
+                                    <li><a href="#">Women's glasses</a></li>
+                                    <li><a href="#">New</a></li>
+                                    <li><a href="#">Sale</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">BRAND</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
-                                    <li><a href="#">Ray Ban</a></li>
-                                    <li><a href="#">Diamond D</a></li>
-                                    <li><a href="#">Philippe Auguste</a></li>
-                                    <li><a href="#">Burberry</a></li>
-                                    <li><a href="#">Versace</a></li>
+                                    <li><a href="#">Gucci</a></li>
+                                    <li><a href="#">Dior</a></li>
+                                    <li><a href="#">Prada</a></li>
+                                    <li><a href="#">Rayban</a></li>
+                                    <li><a href="#">Tom Ford</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">POLICY</h3>
@@ -234,14 +273,12 @@
                                         <a href="#">Transport</a>
                                     </li>
                                     <li>
-                                        <a href="#">Đổi/trả hàng</a>
+                                        <a href="#">Change/Return goods</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">ABOUT US</h3>
@@ -266,8 +303,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">CONNECTING THROUGH FACEBOOK</h3>
@@ -278,11 +313,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
                 </div>
-                <!-- Row End -->
                 </br></br>
-
                 <div class="copy-right">
                     <p>EYEONIC Online Joint Stock Company</p>
                     <p>Business Registration Certificate and MSDN number: 0104364 registered for the first time issued
@@ -292,9 +324,16 @@
                     <p>- Army of Shadow -</p>
                 </div>
             </div>
-            <!-- Container End -->
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script rel="stylesheet" src="./js/index.js"> </script>
+
 </body>
 
 </html>

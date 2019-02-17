@@ -25,6 +25,20 @@
 <body>
     <header class="page-header">
         <div class="container page-header">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/logo.png" height="100px" width="650px">
+                </div>
+                <div class="col-md-6">
+                    <div class="pull-right" style="float:right; margin-top: 30px">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 border" type="search" placeholder="Search" aria-label="Search"
+                                style="width:300px">
+                            <button class="btn btn-outline-success my-2 my-sm-0 border border-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-red">
             <div class="container">
@@ -34,13 +48,22 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">New</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Glasses</a>
                             <ul style="display: block;">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">New</a>
+                                    <a class="nav-link m-1" href="./gucci.html">Gucci</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="./dior.html">Dior</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="./prada.html">Prada</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="./rayban.html">Rayban</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="./tom-ford.html">Tom Ford</a>
                                 </li>
                             </ul>
                         </li>
@@ -48,27 +71,38 @@
                             <a class="nav-link" href="#">Men's glasses</a>
                             <ul style="display: block;">
                                 <li class="nav-item">
-                                    <a class="nav-link m-1" href="#">New</a>
+                                    <a class="nav-link m-1" href="./gucci.html">Fashion Eyeglasses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link m-1" href="#">New</a>
+                                    <a class="nav-link m-1" href="./tom-ford.html">Swimming glasses</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link m-1" href="#">New</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link m-1" href="#">New</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link m-1" href="#">New</a>
+                                    <a class="nav-link m-1" href="./sale.html">Contact Lens</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Women's glasses</a>
+                            <ul style="display: block;">
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="./gucci.html">Fashion Eyeglasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="./tom-ford.html">Swimming glasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="./new.html">Contact Lens</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sale </a>
+                            <a class="nav-link" href="./new.html">Child's Eyeglasses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./new.html">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sale.html">Sale </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contact.html">contact </a>
@@ -76,12 +110,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./about.html">About </a>
                         </li>
-
                     </ul>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2 border" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0 border border-success" type="submit">Search</button>
-                    </form>
+                    <div class="header-cart">
+                        <a href="/checkout/cart" class="header-cart item">
+                            <i class="fas fa-shopping-cart"></i>
+                            Giỏ hàng
+                            <span class="cart-count">0</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -91,19 +127,19 @@
             <div class="container">
                 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item" data-interval="1">
-                            <img src="./images/slideshow/slideshow3.jpg" class="d-block w-100" alt="" style="height: 491px; width: 100%;">
+                            <img src="./images/slideshow/slideshow-1.jpg" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item" data-interval="2">
-                            <img src="./images/slideshow/slideshow4.jpg" class="d-block w-100" alt="" style="height: 491px; width: 100%;">
+                            <img src="./images/slideshow/slideshow-2.jpg" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item active" data-interval="3">
-                            <img src="./images/slideshow/slideshow5.jpg" class="d-block w-100" alt="" style="height: 491px; width: 100%;">
+                            <img src="./images/slideshow/slideshow-2.jpg" class="d-block w-100" alt="">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -122,20 +158,20 @@
         <div class="container">
             <div class="pd-30">
                 <h2 class="sectionTitle prc"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Hàng
-                        Bán Chạy Nhất</a></h2>
+                        HOT</a></h2>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="card">
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" class="card-img-top">
+                                        <img src="images/pr-01qsa521ab0a7.png" height="278px;" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>PRADA PR-01QSA_52_1AB0A7</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">550 (USD)</span></p>
+                                    <p class="price">Our Price: 320 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -146,13 +182,14 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/liensonoptic-kính-mát-Rayban-Clubmaster-RB3016-w0365.jpg" alt=""
+                                            class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>Rayban Clubmaster RB3016</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">495 (USD)</span></p>
+                                    <p class="price">Our Price: 300 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -163,13 +200,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/NIKE-EV0965-160-1-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>NIKE EV0965 160</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 320 (USD)</span></p>
+                                    <p class="price">Our Price: 250 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -180,13 +217,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/NIKE-EV0965-081-1-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>NIKE EV0965 081</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 345 (USD)</span></p>
+                                    <p class="price">Our Price: 295 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -198,20 +235,20 @@
             </div>
             <div class="pd-30">
                 <h2 class="sectionTitle prc"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Hàng
-                        Bán Chạy Nhất</a></h2>
+                        HOT</a></h2>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="card">
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/rb4195-601711.png" height="278px;" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>RAY-BAN WAYFARER RB4195</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 250 (USD)</span></p>
+                                    <p class="price">Our Price: 195 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -222,13 +259,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/NIKE-EV0965-061-1-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>NIKE EV0965 061</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 320 (USD)</span></p>
+                                    <p class="price">Our Price: 280 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -239,13 +276,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/EV0965-041-1-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>NIKE EV0965 041</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 320 (USD)</span></p>
+                                    <p class="price">Our Price: 280 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -256,13 +293,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/NIKE-EV0965-030-1-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>NIKE EV0965 030</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 320 (USD)</span></p>
+                                    <p class="price">Our Price: 280 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -274,20 +311,20 @@
             </div>
             <div class="pd-30">
                 <h2 class="sectionTitle prc"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Hàng
-                        Bán Chạy Nhất</a></h2>
+                        HOT</a></h2>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="card">
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/rb4195-601711.png" height="278px;" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>RAY-BAN AVIATOR LENSES 112/19 </b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 390 (USD)</span></p>
+                                    <p class="price">Our Price: 270 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -298,13 +335,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/NIKE-EV01138-001-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>NIKE EV1138 001</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">150 (USD)</span></p>
+                                    <p class="price">Our Price: 95 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -315,13 +352,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/NIKE-EV0916-440-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>NIKE EV0916 440</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">350 (USD)</span></p>
+                                    <p class="price">Our Price: 250 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -332,13 +369,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/SAINT-LAURENT-SURF-SL118K-001-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>SAINT LAURENT SURF SL118K</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 360 (USD)</span></p>
+                                    <p class="price">Our Price: 250 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -350,20 +387,20 @@
             </div>
             <div class="pd-30">
                 <h2 class="sectionTitle prc"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Hàng
-                        Bán Chạy Nhất</a></h2>
+                        HOT</a></h2>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="card">
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/SAINT-LAURENT-SURF-SL116K-001-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
+                                    <h6 class="card-title"><b>SAINT LAURENT SURF SL116KDEWS 001</b></h6>
                                     <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <p class="price">Our Price: 160 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -374,13 +411,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/SAINT-LAURENT-SURF-SL101SURFF-002-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>SAINT LAURENT SURF SL101SURĐ 002</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough"> 400 (USD)</span></p>
+                                    <p class="price">Our Price: 320 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -391,13 +428,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/SAINT-LAURENT-SURF-SL100LOU-004-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>SAINT LAURENT SURF SL100LOU 004</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">750 (USD)</span></p>
+                                    <p class="price">Our Price: 520 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -408,13 +445,13 @@
                             <div class="card-body">
                                 <div class="itemProduct">
                                     <div class="imgProduct imgCenter">
-                                        <img src="./images/glasses/2.jpg" alt="" class="card-img-top">
+                                        <img src="images/SAINT-LAURENT-SURF-SL100LOU-003-1.jpg" alt="" class="card-img-top">
                                     </div>
                                 </div>
                                 <div class="infoProduct">
-                                    <h6 class="card-title">Special title treatment</h6>
-                                    <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                    <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                    <h6 class="card-title"><b>SAINT LAURENT SURF SL100LOU 003</b></h6>
+                                    <p class="priceOld">Original Price: <span class="lineThrough">750 (USD)</span></p>
+                                    <p class="price">Our Price: 520 <span>USD</span></p>
                                     <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                 </div>
                             </div>
@@ -427,11 +464,8 @@
         </div>
     </div>
     <footer class="off-white-bg2 pt-95 bdr-top pt-sm-55">
-        <!-- Footer Top Start -->
-
         <div class="footer-top">
             <div class="container">
-                <!-- Signup Newsletter Start -->
                 <div class="row mb-60">
                     <div class="col-xl-7 col-lg-7 ml-auto mr-auto col-md-8">
                         <div class="news-desc text-center mb-30">
@@ -447,42 +481,36 @@
                         </div>
                     </div>
                 </div>
-                <!-- Signup-Newsletter End -->
                 </br></br>
                 <div class="row">
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">CATEGORY</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
-                                    <li><a href="#">Men's glasses</a></li>
-                                    <li><a href="#">Dear Female</a></li>
                                     <li><a href="#">Glasses</a></li>
-                                    <li><a href="#">Lens</a></li>
-                                    <li><a href="#">eyeglass frames</a></li>
+                                    <li><a href="#">Men's glasses</a></li>
+                                    <li><a href="#">Women's glasses</a></li>
+                                    <li><a href="#">New</a></li>
+                                    <li><a href="#">Sale</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">BRAND</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
-                                    <li><a href="#">Ray Ban</a></li>
-                                    <li><a href="#">Diamond D</a></li>
-                                    <li><a href="#">Philippe Auguste</a></li>
-                                    <li><a href="#">Burberry</a></li>
-                                    <li><a href="#">Versace</a></li>
+                                    <li><a href="#">Gucci</a></li>
+                                    <li><a href="#">Dior</a></li>
+                                    <li><a href="#">Prada</a></li>
+                                    <li><a href="#">Rayban</a></li>
+                                    <li><a href="#">Tom Ford</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">POLICY</h3>
@@ -498,14 +526,12 @@
                                         <a href="#">Transport</a>
                                     </li>
                                     <li>
-                                        <a href="#">Đổi/trả hàng</a>
+                                        <a href="#">Change/Return goods</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">ABOUT US</h3>
@@ -530,8 +556,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">CONNECTING THROUGH FACEBOOK</h3>
@@ -542,11 +566,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
                 </div>
-                <!-- Row End -->
                 </br></br>
-
                 <div class="copy-right">
                     <p>EYEONIC Online Joint Stock Company</p>
                     <p>Business Registration Certificate and MSDN number: 0104364 registered for the first time issued
@@ -556,9 +577,15 @@
                     <p>- Army of Shadow -</p>
                 </div>
             </div>
-            <!-- Container End -->
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script rel="stylesheet" src="./js/index.js"> </script>
 
 </body>
 

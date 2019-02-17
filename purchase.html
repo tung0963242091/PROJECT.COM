@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="container page-header">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/logo.png" height="100px" width="650px">
+                </div>
+                <div class="col-md-8">
+                    <div class="pull-right" style="float:right; margin-top: 30px">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 border" type="search" placeholder="Search" aria-label="Search" style="width:300px">
+                            <button class="btn btn-outline-success my-2 my-sm-0 border border-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-red">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar-toolbar mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Glasses</a>
+                            <ul style="display: block;">
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Gucci</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Dior</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Prada</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Rayban</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Tom Ford</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Men's glasses</a>
+                            <ul style="display: block;">
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Fashion Eyeglasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Swimming glasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Contact Lens</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Women's glasses</a>
+                            <ul style="display: block;">
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Fashion Eyeglasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Swimming glasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Contact Lens</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sale </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">contact </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="header-cart">
+                        <a href="/checkout/cart" class="header-cart item">
+                            <i class="fas fa-shopping-cart"></i>
+                            Giỏ hàng
+                            <span class="cart-count">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="content-items">
+                <div class="content-items-content-01">
+                    <section class="slider-content-1"> <em class="bt-1"><b>&nbsp;</b></em>
+                        <div class="anythingSlider-1">
+                            <h2 class="subtitle-1">Payment Orders</h2>
+                            <link href="http://www.matkinhsaigon.com.vn/css/cart.css" rel="stylesheet" type="text/css">
+                            <br>
+                            <br>
+                            <form action="3.html" method="POST" name="frmCart">
+
+                                <table cellpadding="0" cellspacing="0" id="yourcartdetails">
+
+                                    <thead>
+                                        <tr class="yourcartdetails_title">
+                                            <th class="text-center">Image</th>
+                                            <th class="text-center">Product's name</th>
+                                            <th class="text-center">Price</th>
+                                            <th class="text-center">Amount</th>
+                                            <th class="text-center">Money</th>
+                                            <th class="text-center">Delete</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody class="yourcartdetails_all">
+
+                                        <tr>
+                                            <td><a href="http://www.matkinhsaigon.com.vn/kinh-mat/kinh-mat-molsion-ms6063a10/">
+                                                    <img id="" src="http://www.matkinhsaigon.com.vn/library/module_new/kinh-mat-molsion-ms6063-a10_s2848.png"
+                                                        alt="Glasses Molsion MS6063-A10" class="h-100">
+                                                </a></td>
+                                            <td><a href="http://www.matkinhsaigon.com.vn/kinh-mat/kinh-mat-molsion-ms6063a10/">Kính
+                                                    Mát Molsion MS6063-A10</a>
+                                            </td>
+                                            <td style="color:#3A9504;">200 <b> USD</b></td>
+                                            <td class="acenter" align="center">
+                                                1
+                                            </td>
+                                            <td>
+                                                <b><span id="pTotal_20631">200 <b> USD</b></span></b>
+                                            </td>
+                                            <td align="center">
+                                                <img class="buttondete" onclick="window.location='http://www.matkinhsaigon.com.vn/gio-hang/?act=del&amp;pos=1';return false;"
+                                                    src="http://www.matkinhsaigon.com.vn/images/delete.png" alt="xóa sản phẩm"
+                                                    width="16" height="16">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="3" style="border-right:none;text-align:right;"></td>
+                                            <td colspan="2" class="cart_totla"><b>Total</b></td>
+                                            <td colspan="1" class="cart_totla_price">200<b> USD</b></td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td colspan="7" style="text-align:left;" class="info_address_title">
+                                                <b>BUYER INFORMATION</b></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="7" style="text-align:left;">
+                                                <table width="100%" class="info_cart_title_all" border="0" cellspacing="0"
+                                                    cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">NAME</td>
+                                                            <td align="left" valign="top"><input class="textbox" name="txtName"
+                                                                    type="text" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">PROVINCE
+                                                                / CITY</td>
+                                                            <td align="left" valign="top"> <select size="1" name="ddCity"
+                                                                    id="city" onchange="showCity(this.value,'districtdiv','ddDistrict')"
+                                                                    class="combo">
+                                                                    <option value="ho-chi-minh" selected="">TP.Hồ Chí
+                                                                        Minh</option>
+                                                                    <option value="ha-noi">Hà Nội</option>
+                                                                    <option value="yen-bai">Yên Bái</option>
+                                                                    <option value="vinh-phuc">Vĩnh Phúc</option>
+                                                                    <option value="vinh-long">Vĩnh Long</option>
+                                                                    <option value="tuyen-quang">Tuyên Quang</option>
+                                                                    <option value="tra-vinh">Trà Vinh</option>
+                                                                    <option value="tien-giang">Tiền Giang</option>
+                                                                    <option value="thua-thien-hue">Thừa Thiên Huế</option>
+                                                                    <option value="thanh-hoa">Thanh Hóa</option>
+                                                                    <option value="thai-nguyen">Thái Nguyên</option>
+                                                                    <option value="thai-binh">Thái Bình</option>
+                                                                    <option value="tay-ninh">Tây Ninh</option>
+                                                                    <option value="son-la">Sơn La</option>
+                                                                    <option value="soc-trang">Sóc Trăng</option>
+                                                                    <option value="quang-tri">Quảng Trị</option>
+                                                                    <option value="quang-ninh">Quảng Ninh</option>
+                                                                    <option value="quang-ngai">Quãng Ngãi</option>
+                                                                    <option value="quang-nam">Quảng Nam</option>
+                                                                    <option value="quang-binh">Quảng Bình</option>
+                                                                    <option value="phu-yen">Phú Yên</option>
+                                                                    <option value="phu-tho">Phú Thọ</option>
+                                                                    <option value="ninh-thuan">Ninh Thuận</option>
+                                                                    <option value="ninh-binh">Ninh Bình</option>
+                                                                    <option value="nghe-an">Nghệ An</option>
+                                                                    <option value="nam-dinh">Nam Định</option>
+                                                                    <option value="long-an">Long An</option>
+                                                                    <option value="lao-cai">Lào Cai</option>
+                                                                    <option value="lang-son">Lạng Sơn</option>
+                                                                    <option value="lam-dong">Lâm Đồng</option>
+                                                                    <option value="lai-chau">Lai Châu</option>
+                                                                    <option value="kon-tum">Kon Tum</option>
+                                                                    <option value="kien-giang">Kiên Giang</option>
+                                                                    <option value="khanh-hoa">Khánh Hòa</option>
+                                                                    <option value="hung-yen">Hưng Yên</option>
+                                                                    <option value="hoa-binh">Hòa Bình</option>
+                                                                    <option value="hau-giang">Hậu Giang</option>
+                                                                    <option value="hai-duong">Hải Dương</option>
+                                                                    <option value="ha-tinh">Hà Tĩnh</option>
+                                                                    <option value="ha-nam-">Hà Nam </option>
+                                                                    <option value="ha-giang">Hà Giang</option>
+                                                                    <option value="gia-lai">Gia Lai</option>
+                                                                    <option value="dong-thap">Đồng Tháp</option>
+                                                                    <option value="dong-nai">Đồng Nai</option>
+                                                                    <option value="dien-bien">Điện Biên</option>
+                                                                    <option value="dak-nong">Đắk Nông</option>
+                                                                    <option value="dak-lak">Đắk Lắk</option>
+                                                                    <option value="cao-bang">Cao Bắng</option>
+                                                                    <option value="ca-mau">Cà Mau</option>
+                                                                    <option value="binh-thuan">Bình Thuận</option>
+                                                                    <option value="binh-phuoc">Bình Phước</option>
+                                                                    <option value="binh-duong">Bình Dương</option>
+                                                                    <option value="binh-dinh">Bình Định</option>
+                                                                    <option value="ben-tre">Bến Tre</option>
+                                                                    <option value="bac-ninh">Bắc Ninh</option>
+                                                                    <option value="bac-lieu">Bạc Liêu</option>
+                                                                    <option value="bac-kan">Bắc Kạn</option>
+                                                                    <option value="bac-giang">Bắc Giang</option>
+                                                                    <option value="ba-ria---vung-tau">Bà Rịa - Vũng Tàu</option>
+                                                                    <option value="an-giang">An Giang</option>
+                                                                    <option value="hai-phong">Hải Phòng</option>
+                                                                    <option value="da-nang">Đà Nẵng</option>
+                                                                    <option value="can-tho">Cần Thơ</option>
+                                                                </select></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">COUNTY
+                                                                / DISTRICT</td>
+                                                            <td align="left" valign="top">
+                                                                <div id="districtdiv">
+                                                                    <select size="1" name="ddDistrict" id="district"
+                                                                        onchange="showDistrict(this.value)" class="combo">
+                                                                        <option value="quan-1" selected="">Quận 1</option>
+                                                                        <option value="quan-2">Quận 2</option>
+                                                                        <option value="quan-3">Quận 3</option>
+                                                                        <option value="quan-4">Quận 4</option>
+                                                                        <option value="quan-5">Quận 5</option>
+                                                                        <option value="quan-6">Quận 6</option>
+                                                                        <option value="quan-7">Quận 7</option>
+                                                                        <option value="quan-8">Quận 8</option>
+                                                                        <option value="quan-9">Quận 9</option>
+                                                                        <option value="quan-10">Quận 10</option>
+                                                                        <option value="quan-11">Quận 11</option>
+                                                                        <option value="quan-12">Quận 12</option>
+                                                                        <option value="quan-phu-nhuan">Quận Phú Nhuận</option>
+                                                                        <option value="quan-binh-thanh">Quận Bình Thạnh</option>
+                                                                        <option value="quan-tan-binh">Quận Tân Bình</option>
+                                                                        <option value="quan-tan-phu">Quận Tân Phú</option>
+                                                                        <option value="quan-go-vap">Quận Gò Vấp</option>
+                                                                        <option value="quan-thu-duc">Quận Thủ Đức</option>
+                                                                        <option value="quan-binh-tan">Quận Bình Tân</option>
+                                                                        <option value="huyen-binh-chanh">Huyện Bình
+                                                                            Chánh</option>
+                                                                        <option value="huyen-cu-chi">Huyện Củ Chi</option>
+                                                                        <option value="huyen-nha-be">Huyện Nhà Bè</option>
+                                                                        <option value="huyen-can-gio">Huyện Cần Giờ</option>
+                                                                        <option value="huyen-hoc-mon">Huyện Hóc Môn</option>
+                                                                    </select>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">ADDRESS</td>
+                                                            <td align="left" valign="top"><input class="textbox" name="txtAddress"
+                                                                    type="text" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">CONTACT
+                                                                PHONE NUMBER</td>
+                                                            <td align="left" valign="top"><input class="textbox" name="txtMobile"
+                                                                    type="text" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">EMAIL</td>
+                                                            <td align="left" valign="top"><input class="textbox" name="txtEmail"
+                                                                    type="text" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">PAYMENTS</td>
+                                                            <td align="left" valign="top">
+                                                                <input type="radio" name="hinhthuc" value="0" checked="">Payment
+                                                                on delivery (COD)
+                                                                <input type="radio" name="hinhthuc" value="1">Bank
+                                                                transfer
+                                                                <input type="radio" name="hinhthuc" value="2">Payment
+                                                                received at the store
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="yourcartdetails_title">
+                                            <td colspan="7" style="text-align:left;"> Recipients are you <input name="radiobutton"
+                                                    onclick="radioResult('0')" type="radio" value="0" checked="">
+                                                &nbsp;&nbsp;&nbsp; Other address <input name="radiobutton" id="radiobuttonkhac"
+                                                    onclick="radioResult('1')" type="radio" value="1">
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="7" style="text-align:left; display:none" id="idkhac">
+                                                <table width="100%" class="info_cart_title_all" border="0" cellspacing="0"
+                                                    cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">NAME</td>
+                                                            <td align="left" valign="top"><input class="textbox" name="txtName"
+                                                                    type="text" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">PROVINCE
+                                                                / CITY</td>
+                                                            <td align="left" valign="top"> <select size="1" name="ddCity"
+                                                                    id="city" onchange="showCity(this.value,'districtdiv','ddDistrict')"
+                                                                    class="combo">
+                                                                    <option value="ho-chi-minh" selected="">TP.Hồ Chí
+                                                                        Minh</option>
+                                                                    <option value="ha-noi">Hà Nội</option>
+                                                                    <option value="yen-bai">Yên Bái</option>
+                                                                    <option value="vinh-phuc">Vĩnh Phúc</option>
+                                                                    <option value="vinh-long">Vĩnh Long</option>
+                                                                    <option value="tuyen-quang">Tuyên Quang</option>
+                                                                    <option value="tra-vinh">Trà Vinh</option>
+                                                                    <option value="tien-giang">Tiền Giang</option>
+                                                                    <option value="thua-thien-hue">Thừa Thiên Huế</option>
+                                                                    <option value="thanh-hoa">Thanh Hóa</option>
+                                                                    <option value="thai-nguyen">Thái Nguyên</option>
+                                                                    <option value="thai-binh">Thái Bình</option>
+                                                                    <option value="tay-ninh">Tây Ninh</option>
+                                                                    <option value="son-la">Sơn La</option>
+                                                                    <option value="soc-trang">Sóc Trăng</option>
+                                                                    <option value="quang-tri">Quảng Trị</option>
+                                                                    <option value="quang-ninh">Quảng Ninh</option>
+                                                                    <option value="quang-ngai">Quãng Ngãi</option>
+                                                                    <option value="quang-nam">Quảng Nam</option>
+                                                                    <option value="quang-binh">Quảng Bình</option>
+                                                                    <option value="phu-yen">Phú Yên</option>
+                                                                    <option value="phu-tho">Phú Thọ</option>
+                                                                    <option value="ninh-thuan">Ninh Thuận</option>
+                                                                    <option value="ninh-binh">Ninh Bình</option>
+                                                                    <option value="nghe-an">Nghệ An</option>
+                                                                    <option value="nam-dinh">Nam Định</option>
+                                                                    <option value="long-an">Long An</option>
+                                                                    <option value="lao-cai">Lào Cai</option>
+                                                                    <option value="lang-son">Lạng Sơn</option>
+                                                                    <option value="lam-dong">Lâm Đồng</option>
+                                                                    <option value="lai-chau">Lai Châu</option>
+                                                                    <option value="kon-tum">Kon Tum</option>
+                                                                    <option value="kien-giang">Kiên Giang</option>
+                                                                    <option value="khanh-hoa">Khánh Hòa</option>
+                                                                    <option value="hung-yen">Hưng Yên</option>
+                                                                    <option value="hoa-binh">Hòa Bình</option>
+                                                                    <option value="hau-giang">Hậu Giang</option>
+                                                                    <option value="hai-duong">Hải Dương</option>
+                                                                    <option value="ha-tinh">Hà Tĩnh</option>
+                                                                    <option value="ha-nam-">Hà Nam </option>
+                                                                    <option value="ha-giang">Hà Giang</option>
+                                                                    <option value="gia-lai">Gia Lai</option>
+                                                                    <option value="dong-thap">Đồng Tháp</option>
+                                                                    <option value="dong-nai">Đồng Nai</option>
+                                                                    <option value="dien-bien">Điện Biên</option>
+                                                                    <option value="dak-nong">Đắk Nông</option>
+                                                                    <option value="dak-lak">Đắk Lắk</option>
+                                                                    <option value="cao-bang">Cao Bắng</option>
+                                                                    <option value="ca-mau">Cà Mau</option>
+                                                                    <option value="binh-thuan">Bình Thuận</option>
+                                                                    <option value="binh-phuoc">Bình Phước</option>
+                                                                    <option value="binh-duong">Bình Dương</option>
+                                                                    <option value="binh-dinh">Bình Định</option>
+                                                                    <option value="ben-tre">Bến Tre</option>
+                                                                    <option value="bac-ninh">Bắc Ninh</option>
+                                                                    <option value="bac-lieu">Bạc Liêu</option>
+                                                                    <option value="bac-kan">Bắc Kạn</option>
+                                                                    <option value="bac-giang">Bắc Giang</option>
+                                                                    <option value="ba-ria---vung-tau">Bà Rịa - Vũng Tàu</option>
+                                                                    <option value="an-giang">An Giang</option>
+                                                                    <option value="hai-phong">Hải Phòng</option>
+                                                                    <option value="da-nang">Đà Nẵng</option>
+                                                                    <option value="can-tho">Cần Thơ</option>
+                                                                </select></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">COUNTY
+                                                                / DISTRICT</td>
+                                                            <td align="left" valign="top">
+                                                                <div id="districtdiv">
+                                                                    <select size="1" name="ddDistrict" id="district"
+                                                                        onchange="showDistrict(this.value)" class="combo">
+                                                                        <option value="quan-1" selected="">Quận 1</option>
+                                                                        <option value="quan-2">Quận 2</option>
+                                                                        <option value="quan-3">Quận 3</option>
+                                                                        <option value="quan-4">Quận 4</option>
+                                                                        <option value="quan-5">Quận 5</option>
+                                                                        <option value="quan-6">Quận 6</option>
+                                                                        <option value="quan-7">Quận 7</option>
+                                                                        <option value="quan-8">Quận 8</option>
+                                                                        <option value="quan-9">Quận 9</option>
+                                                                        <option value="quan-10">Quận 10</option>
+                                                                        <option value="quan-11">Quận 11</option>
+                                                                        <option value="quan-12">Quận 12</option>
+                                                                        <option value="quan-phu-nhuan">Quận Phú Nhuận</option>
+                                                                        <option value="quan-binh-thanh">Quận Bình Thạnh</option>
+                                                                        <option value="quan-tan-binh">Quận Tân Bình</option>
+                                                                        <option value="quan-tan-phu">Quận Tân Phú</option>
+                                                                        <option value="quan-go-vap">Quận Gò Vấp</option>
+                                                                        <option value="quan-thu-duc">Quận Thủ Đức</option>
+                                                                        <option value="quan-binh-tan">Quận Bình Tân</option>
+                                                                        <option value="huyen-binh-chanh">Huyện Bình
+                                                                            Chánh</option>
+                                                                        <option value="huyen-cu-chi">Huyện Củ Chi</option>
+                                                                        <option value="huyen-nha-be">Huyện Nhà Bè</option>
+                                                                        <option value="huyen-can-gio">Huyện Cần Giờ</option>
+                                                                        <option value="huyen-hoc-mon">Huyện Hóc Môn</option>
+                                                                    </select>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">ADDRESS</td>
+                                                            <td align="left" valign="top"><input class="textbox" name="txtAddress"
+                                                                    type="text" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">CONTACT
+                                                                PHONE NUMBER</td>
+                                                            <td align="left" valign="top"><input class="textbox" name="txtMobile"
+                                                                    type="text" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">EMAIL</td>
+                                                            <td align="left" valign="top"><input class="textbox" name="txtEmail"
+                                                                    type="text" value=""></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="right" class="info_cart_title" valign="middle">PAYMENTS</td>
+                                                            <td align="left" valign="top">
+                                                                <input type="radio" name="hinhthuc" value="0" checked="">Payment
+                                                                on delivery (COD)
+                                                                <input type="radio" name="hinhthuc" value="1">Bank
+                                                                transfer
+                                                                <input type="radio" name="hinhthuc" value="2">Payment
+                                                                received at the store
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td colspan="7" style="text-align:left;">
+                                                Notes on orders</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="7">
+                                                <textarea class="notearea" cols="20" id="txtNotes" name="txtNotes" rows="2"></textarea></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td colspan="7">
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+
+                                <a href="./buy.html" title="Return to the cart page" class="back_cart">Return to the
+                                    cart page</a> <input type="submit" class="button_cart" style="background-color: #191919"
+                                    onclick="return btnSend_onclick()" name="btnCheckout" value="Payment Orders">
+                            </form>
+                        </div>
+                        <div class="clear"></div>
+                        <em class="bb"><b>&nbsp;</b></em>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="off-white-bg2 pt-95 bdr-top pt-sm-55">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row mb-60">
+                    <div class="col-xl-7 col-lg-7 ml-auto mr-auto col-md-8">
+                        <div class="news-desc text-center mb-30">
+                            <h3>Sign up for Incentives</h3>
+                            <p> Be The First To Receive News And Incentives. Register Today</p>
+                        </div>
+                        <div class="newsletter-box">
+                            <form action="#">
+                                <input class="subscribe" placeholder="Your email address" name="email" id="subscribe"
+                                    type="text">
+                                <button type="submit" class="submit">Registration</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </br></br>
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="single-footer mb-sm-40">
+                            <h3 class="footer-title">CATEGORY</h3>
+                            <div class="footer-content">
+                                <ul class="footer-list">
+                                    <li><a href="#">Glasses</a></li>
+                                    <li><a href="#">Men's glasses</a></li>
+                                    <li><a href="#">Women's glasses</a></li>
+                                    <li><a href="#">New</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="single-footer mb-sm-40">
+                            <h3 class="footer-title">BRAND</h3>
+                            <div class="footer-content">
+                                <ul class="footer-list">
+                                    <li><a href="#">Gucci</a></li>
+                                    <li><a href="#">Dior</a></li>
+                                    <li><a href="#">Prada</a></li>
+                                    <li><a href="#">Rayban</a></li>
+                                    <li><a href="#">Tom Ford</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="single-footer mb-sm-40">
+                            <h3 class="footer-title">POLICY</h3>
+                            <div class="footer-content">
+                                <ul class="footer-list">
+                                    <li>
+                                        <a href="#">Security</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Purchase</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Transport</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Change/Return goods</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6">
+                        <div class="single-footer mb-sm-40">
+                            <h3 class="footer-title">ABOUT US</h3>
+                            <div class="footer-content">
+                                <ul class="footer-list">
+                                    <li>
+                                        <a href="#">Menu</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Help center</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">News & Events</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Shop system</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer mb-sm-40">
+                            <h3 class="footer-title">CONNECTING THROUGH FACEBOOK</h3>
+                            <div class="footer-content">
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FK%C3%ADnh-M%E1%BA%AFt-Eyeonic-316367292324944&tabs=timeline&width=351&height=140&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                    width="351" height="140" style="border:none;overflow:hidden" scrolling="no"
+                                    frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </br></br>
+                <div class="copy-right">
+                    <p>EYEONIC Online Joint Stock Company</p>
+                    <p>Business Registration Certificate and MSDN number: 0104364 registered for the first time issued
+                        by Hanoi Department of Planning and Investment
+                        01/01/2019</p>
+                    <p>Copyright © 2009 - 2019 EYEONIC.COM . All Rights Reserved</p>
+                    <p>- Army of Shadow -</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script rel="stylesheet" src="./js/index.js"> </script>
+</body>
+
+</html>

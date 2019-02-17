@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Project</title>
+    <title>Sale</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
@@ -22,6 +22,20 @@
 <body>
     <header class="page-header">
         <div class="container page-header">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/logo.png" height="100px" width="650px">
+                </div>
+                <div class="col-md-8">
+                    <div class="pull-right" style="float:right; margin-top: 30px">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2 border" type="search" placeholder="Search" aria-label="Search"
+                                style="width:300px">
+                            <button class="btn btn-outline-success my-2 my-sm-0 border border-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-red">
             <div class="container">
@@ -31,21 +45,55 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">New</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#">Glasses</a>
                             <ul style="display: block;">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">New</a>
+                                    <a class="nav-link m-1" href="#">Gucci</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Dior</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Prada</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Rayban</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Tom Ford</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Men's glasses</a>
+                            <ul style="display: block;">
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Fashion Eyeglasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Swimming glasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Contact Lens</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Women's glasses</a>
+                            <ul style="display: block;">
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Fashion Eyeglasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Swimming glasses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link m-1" href="#">Contact Lens</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sale </a>
@@ -58,17 +106,23 @@
                         </li>
 
                     </ul>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2 border" type="search" placeholder="Search" aria-label="Search" style="width:300px">
-                        <button class="btn btn-outline-success my-2 my-sm-0 border border-success" type="submit">Search</button>
-                    </form>
+
+                    <div class="header-cart">
+                        <a href="/checkout/cart" class="header-cart item">
+                            <i class="fas fa-shopping-cart"></i>
+                            Giỏ hàng
+                            <span class="cart-count">0</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-    
     <div class="clearfix">
         <div class="container">
+            <div class="path"><a href="./index.html">Home</a>
+                <h1><a href="./sale.html">Sale</a></h1>
+            </div>
             <div class="colleft">
                 <div class="filter">
                     <div class="title">BRAND</div>
@@ -99,13 +153,13 @@
                 <div class="filter">
                     <div class="title">Category</div>
                     <ul>
-                        <li><a href="./fashioneyeglasses.html" title="Fashion Eyeglasses">
+                        <li><a href="./fashion-eyeglasses.html" title="Fashion Eyeglasses">
                                 <i class="fa fa-square" aria-hidden="true"></i>Fashion Eyeglasses</a>
                         </li>
-                        <li><a href="./fashioneyeglasses.html" title="Swimming glasses">
+                        <li><a href="./fashion-eyeglasses.html" title="Swimming glasses">
                                 <i class="fa fa-square" aria-hidden="true"></i>Swimming glasses</a>
                         </li>
-                        <li><a href="./gucci.html" title="Contact Lens">
+                        <li><a href="./tom-ford.html" title="Contact Lens">
                                 <i class="fa fa-square" aria-hidden="true"></i>Contact Lens</a>
                         </li>
 
@@ -121,7 +175,7 @@
                             </h2>
                         </li>
                         <li>
-                            <h2><a href="./tom ford.html" title="Women's glasses">
+                            <h2><a href="./tom-ford.html" title="Women's glasses">
                                     <i class="fa fa-square" aria-hidden="true"></i>Women's glasses</a></h2>
                             <h2>
                             </h2>
@@ -138,24 +192,19 @@
                 <div class="filter">
                     <div class="title">Price range</div>
                     <ul>
-                        <li><a href="./under-price.html"
-                                title="Under $ 200">
+                        <li><a href="./under-price.html" title="Under $ 200">
                                 <i class="fa fa-square" aria-hidden="true"></i>Under $ 200</a>
                         </li>
-                        <li><a href="./under-price.html"
-                                title="200$ - 350$">
+                        <li><a href="./under-price.html" title="200$ - 350$">
                                 <i class="fa fa-square" aria-hidden="true"></i>200$ - 350$</a>
                         </li>
-                        <li><a href="./under-price.html"
-                                title="350$ - 500$">
+                        <li><a href="./under-price.html" title="350$ - 500$">
                                 <i class="fa fa-square" aria-hidden="true"></i>350$ - 500$</a>
                         </li>
-                        <li><a href="./under-price.html"
-                                title="500$ - 1,000$">
+                        <li><a href="./under-price.html" title="500$ - 1,000$">
                                 <i class="fa fa-square" aria-hidden="true"></i>500$ - 1,000$</a>
                         </li>
-                        <li><a href="./under-price.html"
-                                title="Over 1,000 $">
+                        <li><a href="./under-price.html" title="Over 1,000 $">
                                 <i class="fa fa-square" aria-hidden="true"></i>Over 1,000 $</a>
                         </li>
 
@@ -166,149 +215,245 @@
                 <div id="product" class="list">
                     <div class="parent">
                         <div class="pd-30">
-                            <h2 class="sectionTitle prc"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Hàng
-                                    Bán Chạy Nhất</a></h2>
+                            <h2 class="sectionTitle prc w-1"><a href="http://www.matkinhsaigon.com.vn/gong-kinh/" title="Gọng Kính">Sale</a></h2>
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="itemProduct">
                                                 <div class="imgProduct imgCenter">
-                                                    <img src="./images/2.jpg" alt="" class="card-img-top">
+                                                    <img src="images/gucci/GG0011OA-001-1-1.jpg" class="card-img-top">
                                                 </div>
                                             </div>
                                             <div class="infoProduct">
-                                                <h6 class="card-title">Special title treatment</h6>
-                                                <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                                <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                                <h3 class="card-title"><b>GUCCI GG011OA 001</b></h3>
+                                                <p class="priceOld">Original Price: <span class="lineThrough">760 (USD)</span></p>
+                                                <p class="price">Our Price: 650 <span>USD</span></p>
                                                 <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="itemProduct">
                                                 <div class="imgProduct imgCenter">
-                                                    <img src="./images/2.jpg" alt="" class="card-img-top">
+                                                    <img src="./images/rayban/Rayban-RB-3025-9020-C4-62IT-1.jpg" alt=""
+                                                        class="card-img-top">
                                                 </div>
                                             </div>
                                             <div class="infoProduct">
-                                                <h6 class="card-title">Special title treatment</h6>
-                                                <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                                <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                                <h3 class="card-title"><b>RAYBAN RB 3025 9020 C4</b></h3>
+                                                <p class="priceOld">Original Price: <span class="lineThrough">490 (USD)</span></p>
+                                                <p class="price">Our Price: 375 <span>USD</span></p>
                                                 <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="itemProduct">
                                                 <div class="imgProduct imgCenter">
-                                                    <img src="./images/2.jpg" alt="" class="card-img-top">
+                                                    <img src="./images/gucci/GG0204S-001-1.jpg" alt="" class="card-img-top">
                                                 </div>
                                             </div>
                                             <div class="infoProduct">
-                                                <h6 class="card-title">Special title treatment</h6>
-                                                <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                                <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                                <h3 class="card-title"><b>GUCCI GG2045 001</b></h3>
+                                                <p class="priceOld">Original Price: <span class="lineThrough">400 (USD)</span></p>
+                                                <p class="price">Our Price: 320 <span>USD</span></p>
                                                 <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="itemProduct">
                                                 <div class="imgProduct imgCenter">
-                                                    <img src="./images/2.jpg" alt="" class="card-img-top">
+                                                    <img src="images/rayban/Rayban-RB7059D-5916-1.jpg" height="210px;"
+                                                        alt="" class="card-img-top">
                                                 </div>
                                             </div>
                                             <div class="infoProduct">
-                                                <h6 class="card-title">Special title treatment</h6>
-                                                <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                                <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                                <h6 class="card-title"><b>RAYBAN RB 7059 5916</b></h6>
+                                                <p class="priceOld">Original Price: <span class="lineThrough"> 730
+                                                        (USD)</span></p>
+                                                <p class="price">Our Price: 630 <span>USD</span></p>
                                                 <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="itemProduct">
                                                 <div class="imgProduct imgCenter">
-                                                    <img src="./images/2.jpg" alt="" class="card-img-top">
+                                                    <img src="images/tom ford/TOM-FORD-TF599-28C-1.jpg" height="210px;"
+                                                        class="card-img-top">
                                                 </div>
                                             </div>
                                             <div class="infoProduct">
-                                                <h6 class="card-title">Special title treatment</h6>
-                                                <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                                <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                                <h6 class="card-title"><b>TOMFORD TF599 28C </b></h6>
+                                                <p class="priceOld">Original Price: <span class="lineThrough"> 620
+                                                        (USD)</span></p>
+                                                <p class="price">Our Price: 570 <span>USD</span></p>
                                                 <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="itemProduct">
                                                 <div class="imgProduct imgCenter">
-                                                    <img src="./images/2.jpg" alt="" class="card-img-top">
+                                                    <img src="./images/gucci/GG0212S-002-1-1.jpg" alt="" class="card-img-top">
                                                 </div>
                                             </div>
                                             <div class="infoProduct">
-                                                <h6 class="card-title">Special title treatment</h6>
-                                                <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                                <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                                <h3 class="card-title"><b>GUCCI GG212S 002</b></h3>
+                                                <p class="priceOld">Original Price: <span class="lineThrough">430
+                                                        (USD)</span></p>
+                                                <p class="price">Our Price: 270 <span>USD</span></p>
+                                                <div class="buy"><a href="" title="Buy Now" class="order">Buy
+                                                        Now</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="itemProduct">
+                                                <div class="imgProduct imgCenter">
+                                                    <img src="./images/gucci/GG130OJ-001-1.jpg" alt="" class="card-img-top">
+                                                </div>
+                                            </div>
+                                            <div class="infoProduct">
+                                                <h3 class="card-title"><b>GUCCI GG1300J 001</b></h3>
+                                                <p class="priceOld">Original Price: <span class="lineThrough">650
+                                                        (USD)</span></p>
+                                                <p class="price">Our Price: 450 <span>USD</span></p>
+                                                <div class="buy"><a href="" title="Buy Now" class="order">Buy
+                                                        Now</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="itemProduct">
+                                                <div class="imgProduct imgCenter">
+                                                    <img src="images/gucci/gg0077sk-004-1-1.jpg" height="210px;" class="card-img-top">
+                                                </div>
+                                            </div>
+                                            <div class="infoProduct">
+                                                <h6 class="card-title"><b>GUCCI GG0077SK 004</b></h6>
+                                                <p class="priceOld">Original Price: <span class="lineThrough">520
+                                                        (USD)</span></p>
+                                                <p class="price">Our Price: 450 <span>USD</span></p>
+                                                <div class="buy"><a href="" title="Buy Now" class="order">Buy
+                                                        Now</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="itemProduct">
+                                                <div class="imgProduct imgCenter">
+                                                    <img src="./images/rayban/Rayban-RB7059D-5916-1.jpg" height="219px;"
+                                                        class="card-img-top">
+                                                </div>
+                                            </div>
+                                            <div class="infoProduct">
+                                                <h3 class="card-title"><b>RAYBAN
+                                                        RB7059D 5916</b></h3>
+                                                <p class="priceOld">Original Price:
+                                                    <span class="lineThrough">350 (USD)</span></p>
+                                                <p class="price">Our Price: 270 <span>vnđ</span></p>
                                                 <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-3">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="itemProduct">
                                                 <div class="imgProduct imgCenter">
-                                                    <img src="./images/2.jpg" alt="" class="card-img-top">
+                                                    <img src="./images/rayban/Rayban-RB7059D-5916-1.jpg" height="219px;"
+                                                        class="card-img-top">
                                                 </div>
                                             </div>
                                             <div class="infoProduct">
-                                                <h6 class="card-title">Special title treatment</h6>
-                                                <p class="priceOld">Original Price: <span class="lineThrough">200 (USD)</span></p>
-                                                <p class="price">Our Price: 150 <span>vnđ</span></p>
+                                                <h3 class="card-title"><b>RAYBAN
+                                                        RB7059D 5916</b></h3>
+                                                <p class="priceOld">Original Price:
+                                                    <span class="lineThrough">350 (USD)</span></p>
+                                                <p class="price">Our Price: 270 <span>vnđ</span></p>
                                                 <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="itemProduct">
+                                                <div class="imgProduct imgCenter">
+                                                    <img src="images/tom ford/TOM-FORD-TF5504-001-1.jpg" alt="" class="card-img-top">
+                                                </div>
+                                            </div>
+                                            <div class="infoProduct">
+                                                <h6 class="card-title"><b>TOMFORD
+                                                        TF5504 001</b></h6>
+                                                <p class="priceOld">Original Price:
+                                                    <span class="lineThrough"> 660
+                                                        (USD)</span></p>
+                                                <p class="price">Our Price: 550 <span>USD</span></p>
+                                                <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="itemProduct">
+                                                <div class="imgProduct imgCenter">
+                                                    <img src="./images/tom ford/TOM-FORD-TF650-30G-1.jpg" height="219px;"
+                                                        class="card-img-top">
+                                                </div>
+                                            </div>
+                                            <div class="infoProduct">
+                                                <h3 class="card-title"><b>TOMFORD
+                                                        TF650DEA 30G</b> </h3>
+                                                <p class="priceOld">Original Price:
+                                                    <span class="lineThrough">650 (USD)</span></p>
+                                                <p class="price">Our Price: 450 <span>USD</span></p>
+                                                <div class="buy"><a href="" title="Buy Now" class="order">Buy Now</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
                         </div>
                     </div>
-                    <nav class="text-center">
-                        <span class="paging_div"><span class="span_select_class" rel="nofollow">&nbsp;1&nbsp;</span>&nbsp;<span
-                                class="span_a_class">&nbsp;<a href="/sp/b-4/Kinh-mat-Burberry.html?&amp;page=2" rel="nofollow">2</a>&nbsp;</span>&nbsp;<span
-                                class="span_a_class">&nbsp;<a href="/sp/b-4/Kinh-mat-Burberry.html?&amp;page=3" rel="nofollow">3</a>&nbsp;</span>&nbsp;</span>
-                    </nav>
                 </div>
             </div>
         </div>
     </div>
-
     <footer class="off-white-bg2 pt-95 bdr-top pt-sm-55">
-        <!-- Footer Top Start -->
-
         <div class="footer-top">
             <div class="container">
-                <!-- Signup Newsletter Start -->
                 <div class="row mb-60">
                     <div class="col-xl-7 col-lg-7 ml-auto mr-auto col-md-8">
                         <div class="news-desc text-center mb-30">
@@ -324,42 +469,36 @@
                         </div>
                     </div>
                 </div>
-                <!-- Signup-Newsletter End -->
                 </br></br>
                 <div class="row">
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">CATEGORY</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
-                                    <li><a href="#">Men's glasses</a></li>
-                                    <li><a href="#">Dear Female</a></li>
                                     <li><a href="#">Glasses</a></li>
-                                    <li><a href="#">Lens</a></li>
-                                    <li><a href="#">eyeglass frames</a></li>
+                                    <li><a href="#">Men's glasses</a></li>
+                                    <li><a href="#">Women's glasses</a></li>
+                                    <li><a href="#">New</a></li>
+                                    <li><a href="#">Sale</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">BRAND</h3>
                             <div class="footer-content">
                                 <ul class="footer-list">
-                                    <li><a href="#">Ray Ban</a></li>
-                                    <li><a href="#">Diamond D</a></li>
-                                    <li><a href="#">Philippe Auguste</a></li>
-                                    <li><a href="#">Burberry</a></li>
-                                    <li><a href="#">Versace</a></li>
+                                    <li><a href="#">Gucci</a></li>
+                                    <li><a href="#">Dior</a></li>
+                                    <li><a href="#">Prada</a></li>
+                                    <li><a href="#">Rayban</a></li>
+                                    <li><a href="#">Tom Ford</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">POLICY</h3>
@@ -375,14 +514,12 @@
                                         <a href="#">Transport</a>
                                     </li>
                                     <li>
-                                        <a href="#">Đổi/trả hàng</a>
+                                        <a href="#">Change/Return goods</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-2 col-md-4 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">ABOUT US</h3>
@@ -407,8 +544,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
-                    <!-- Single Footer Start -->
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer mb-sm-40">
                             <h3 class="footer-title">CONNECTING THROUGH FACEBOOK</h3>
@@ -419,24 +554,26 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Footer Start -->
                 </div>
-                <!-- Row End -->
                 </br></br>
-
                 <div class="copy-right">
                     <p>EYEONIC Online Joint Stock Company</p>
-                    <p>Business Registration Certificate and MSDN number: 0104364 registered for the first time
-                        issued
+                    <p>Business Registration Certificate and MSDN number: 0104364 registered for the first time issued
                         by Hanoi Department of Planning and Investment
                         01/01/2019</p>
                     <p>Copyright © 2009 - 2019 EYEONIC.COM . All Rights Reserved</p>
                     <p>- Army of Shadow -</p>
                 </div>
             </div>
-            <!-- Container End -->
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script rel="stylesheet" src="./js/index.js"> </script>
 
 </body>
 

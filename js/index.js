@@ -99,3 +99,7 @@ function showCity(idcity, idload, namess) {
     xmlhttpcity.open("GET", servername + "database/district_ajax.php?idcity=" + idcity + '&idload=' + idload + '&namess=' + namess, true);
     xmlhttpcity.send();
 }
+
+function Confirm() {
+    alert("Thank you for your order. We will contact you soon");
+}
