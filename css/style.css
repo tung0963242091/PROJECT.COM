@@ -161,19 +161,48 @@ th {
     text-align: left;
 }
 
-/* Contact */
-
-.breadcrumb-area .breadcrumb {
-    background: #f8f8f8;
-    margin-bottom: 0;
-    padding: 16px 15px;
+/*Path.....................*/
+.path a:hover {
+    color: #01DF74 !important;
 }
 
-.breadcrumb li a {
-    color: #E62E04;
-    font-size: 15px;
-    margin-right: 5px;
+.path a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+    float: left;
+    font-size: 13px;
+    line-height: 36px;
+    color: white;
+    padding: 0 10px 0 30px;
+    background: #666;
+    background: linear-gradient(#e83339, #ED1C24);
+    position: relative;
 }
+
+.path a:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    transform: scale(0.707) rotate(45deg);
+    -webkit-transform: scale(0.707) rotate(45deg);
+    -moz-transform: scale(0.707) rotate(45deg);
+    z-index: 1;
+    background: #666;
+    background: linear-gradient(135deg, #e83339, #ED1C24);
+    box-shadow: 2px -2px 0 2px rgb(255, 255, 255), 3px -3px 0 2px rgba(239, 117, 121, 0.65);
+    border-radius: 0 5px 0 50px;
+}
+
+.path {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*--/contact--*/
 
 h3.tittle-w3layouts {
     font-size: 3em;
@@ -183,8 +212,9 @@ h3.tittle-w3layouts {
     padding-top: 4em;
 }
 
-.far,
-.fas {
+.fa-map,
+.fa-envelope,
+.fa-mobile-alt {
     font-size: 40px;
     color: #FA8258;
 }
@@ -203,7 +233,7 @@ p.sub {
     color: #313233;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 0.85em;
+    font-size: 0.8em;
     font-weight: 500;
 }
 
@@ -222,7 +252,8 @@ p.sub {
 
 .contact_grid_right textarea {
     min-height: 150px;
-    margin: 0.3em 0em;
+    margin: 9px 0px 20px 0px;
+    margin-bottom: 20px;
     resize: none;
 }
 
@@ -248,7 +279,7 @@ p.sub {
 }
 
 .contact-map {
-    margin: 0px 150px 80px 150px;
+    margin: 60px 0px 60px 0px;
 }
 
 .contact-map iframe {
@@ -271,12 +302,16 @@ p.sub {
     padding: 3em 1em;
 }
 
+/*-- //contact--*/
+
+/* About Us */
 .about-desc p {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
 
+/*Padding margin*/
 .mt-30 {
     margin-top: 30px
 }
@@ -301,22 +336,13 @@ p.sub {
     padding: 100px 0
 }
 
-.breadcrumb-area .breadcrumb {
-    background: #f8f8f8;
-    margin-bottom: 0;
-    padding: 16px 15px;
-}
 
-.breadcrumb li a {
-    color: #E62E04;
-    font-size: 15px;
-    margin-right: 5px;
-}
-
+/* img */
 .sidebar-img img {
     width: 100%;
 }
 
+/* Read more */
 .return-customer-btn {
     color: #151515;
     display: inline-block;
@@ -337,10 +363,12 @@ p.sub {
 }
 
 .return-customer-btn:hover {
-    background: #82FA58;
-    color: #fff;
+    background: #E62E04;
+    color: #fff !important;
 }
 
+/* . Team
+/*----------------------------------------*/
 .about-title {
     display: inline-block;
     font-size: 22px;
@@ -350,7 +378,7 @@ p.sub {
 
 .about-title-team {
     text-align: center;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -358,10 +386,6 @@ p.sub {
 .aos {
     text-align: center;
     font-size: 11px;
-}
-
-.team-img img {
-    width: 100%;
 }
 
 .team-img {
@@ -453,7 +477,7 @@ p.sub {
 }
 
 .ht-about-work {
-    margin-bottom: 0px;
+    margin-bottom: 12px;
     position: relative;
 }
 
@@ -491,6 +515,9 @@ p.sub {
     line-height: 24px;
 }
 
+/* About Us End */
+
+
 .fa-square {
     margin-right: 5px;
 }
@@ -499,104 +526,23 @@ p.sub {
     display: inline-block;
 }
 
-.path a {
-    text-decoration: none;
-    outline: none;
-    display: block;
+.bx-wrapper .bx-viewport {
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+}
+
+.bxslider li {
     float: left;
-    font-size: 18px;
-    line-height: 36px;
-    color: white;
-    padding: 0 10px 0 30px;
-    background: #666;
-    background: linear-gradient(#e83339, #ED1C24);
     position: relative;
+    width: 170px;
+    margin-right: 27px;
+    padding: 30px;
 }
 
-.path a:after {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    right: -18px;
-    width: 36px;
-    height: 36px;
-    transform: scale(0.707) rotate(45deg);
-    -webkit-transform: scale(0.707) rotate(45deg);
-    -moz-transform: scale(0.707) rotate(45deg);
-    z-index: 1;
-    background: #666;
-    background: linear-gradient(135deg, #e83339, #ED1C24);
-    box-shadow: 2px -2px 0 2px rgb(255, 255, 255), 3px -3px 0 2px rgba(239, 117, 121, 0.65);
-    border-radius: 0 5px 0 50px;
-}
-
-.path a:hover {
-    color: #808080;
-}
-
-.path {
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.mb-3 {
-    background-color: #e8e8e8;
-}
-
-.Button {
-    font-weight: 500;
-    background-color: #01A9DB;
-    color: #000000;
-    border: 1px #81F781;
-    border-radius: 6px;
-    padding: 7px 16px 7px 16px;
-    margin-top: 20px;
-}
-
-.Button:hover {
-    background-color: #BCF5A9;
-}
-
-.rating {
-    color: #FE9A2E;
-}
-
-.related {
-    display: flex;
-}
-
-.card-body1 {
-    background-color: #D8D8D8;
-    text-align: center;
-}
-
-.card-text {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
-.card-text-a {
-    margin-bottom: 10px;
-}
-
-.card-text-a a {
-    color: #04B4AE;
-}
-
-.thead {
-    color: #FFFFFF;
-    background-color: #ED1C24;
-}
-
-.breadcrumb-area .breadcrumb {
-    background: #f8f8f8;
-    margin-bottom: 0;
-    padding: 16px 15px;
-}
-
-.breadcrumb li a {
-    color: #E62E04;
-    font-size: 15px;
-    margin-right: 5px;
+.bx-wrapper img {
+    max-width: 100%;
+    display: block;
 }
