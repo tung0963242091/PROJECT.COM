@@ -342,6 +342,11 @@ p.sub {
     width: 100%;
 }
 
+.team-img img {
+    width: 218px;
+    height: 218px;
+}
+
 /* Read more */
 .return-customer-btn {
     color: #151515;
@@ -545,4 +550,12 @@ p.sub {
 .bx-wrapper img {
     max-width: 100%;
     display: block;
+}
+
+.w-1 a:hover {
+    color: #01DF74 !important;
+}
+
+.b-1 a:hover {
+    color: #01DF74 !important;
 }
