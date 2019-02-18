@@ -546,3 +546,11 @@ p.sub {
     max-width: 100%;
     display: block;
 }
+
+.w-1 a:hover {
+    color: #01DF74 !important;
+}
+
+.b-1 a:hover {
+    color: #01DF74 !important;
+}
